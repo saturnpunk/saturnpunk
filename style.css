@@ -1,0 +1,47 @@
+body {
+  /* background-color: palegreen; */
+  min-height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /* background-image: url(token_wallpaper_purple.jpg); */
+  background-size: 5%
+
+}   
+
+#container {
+  /* background-color: lavender; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+h1 {
+  font-size: 400%;
+  color: orange;
+  text-shadow: 2px 2px blue;
+}
+
+#title {
+  /* background-color: lightskyblue; */
+  position:relative;
+}
+
+#splash {
+  position: absolute;
+  right: -7%;
+  top: 22%;
+  transform:rotate(15deg);
+  font-size: 120%;
+  color: rgb(207, 207, 2);
+  text-shadow: 1px 1px black
+}
+
+button {
+  width: 100px;
+  height: 25px;
+
+}
