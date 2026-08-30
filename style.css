@@ -1,16 +1,12 @@
 body {
-  /* background-color: palegreen; */
+  background-color: lightgray;
   min-height: 100vh;
   display: flex;
   justify-content:center;
   align-items: center;
-  /* background-image: url(token_wallpaper_purple.jpg); */
-  background-size: 5%
-
 }   
 
 #container {
-  /* background-color: lavender; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -26,7 +22,6 @@ h1 {
 }
 
 #title {
-  /* background-color: lightskyblue; */
   position:relative;
 }
 
@@ -36,12 +31,10 @@ h1 {
   top: 22%;
   transform:rotate(15deg);
   font-size: 120%;
-  color: rgb(207, 207, 2);
-  text-shadow: 1px 1px black
+  text-shadow: 1px 1px yellow
 }
 
 button {
   width: 100px;
   height: 25px;
-
 }

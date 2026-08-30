@@ -4,20 +4,97 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saturnpunk</title>
+    <title>Saturnstart punkpage</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
 
   <body>
     <div id="container">
       <div id="title">
-        <p id="splash">i fucking hate css</p>
+        <p id="splash">splash!</p>
         <h1>saturnpunk's cyber world</h1>
       </div>
-      <button>start</button>
-      <button>configs</button>
+      <a href="comingsoon.html"><button>start</button></a>
+      <a href="comingsoon.html"><button>configs</button></a>
       <p>since 2026</p>
     </div>
-  </body>
 
+    <style>
+      body {
+        background-color: lightgray;
+        min-height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+      }   
+
+      #container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 400%;
+        color: orange;
+        text-shadow: 2px 2px blue;
+      }
+
+      #title {
+        position:relative;
+      }
+
+      #splash {
+        position: absolute;
+        right: -7%;
+        top: 22%;
+        transform:rotate(15deg);
+        font-size: 120%;
+        text-shadow: 1px 1px yellow
+      }
+
+      button {
+        width: 100px;
+        height: 25px;
+      }
+    </style>
+
+    <script type="text/javascript">
+      const splash = document.getElementById('splash');
+
+      const options = [
+        "punch your local nazi",
+        // "ecoterrorism",
+        "death to cringe culture",
+        "go make more art now!!!",
+        "i'm so hyper!!!",
+        "made in Brazil",
+        "coming soon",
+        "femtanyl addict",
+        "i no longer hate css",
+        "stay punk",
+        "100% AI free",
+        "stay freaky",
+        "woof!"
+      ]
+
+      splash.textContent = options[Math.floor(Math.random()*options.length)]
+
+    </script>
+
+  </body>
 </html>
+
+<!-- 
+screenjesus proc please
+punch your local nazi
+where the epstein thingie again?
+ecoterrorism
+death to cringe culture
+go make more art now!!!
+i'm so hyper!!!
+made in Brazil
+-->
